@@ -1,13 +1,13 @@
 ﻿using ITHS_CC_Labb2;
 
-OrderService orderService = new OrderService();
+var orderService = new OrderService(new EmailService(), new Logger(), new OrderProcessorService());
 
-Order slowOrder = new Order
+var slowOrder = new Order
 {
-    ID = Guid.NewGuid(),
+    Id = Guid.NewGuid(),
     Email = "slowEmail@example.com",
     Priority = OrderStatus.Normal,
-    TotalPrce = 100,
+    TotalPrice = 100
 };
 
-orderService.ProcessOrder(slowOrder);  
+orderService.ProcessOrder(slowOrder);

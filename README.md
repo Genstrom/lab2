@@ -1,13 +1,13 @@
 ﻿# Labb 2
 
-I denna laboration skall vi pröva att refaktorera lite kod efter de regler vi lärt oss hittils. 
+I denna laboration skall vi pröva att refaktorera lite kod efter de regler vi lärt oss hittils.
 
 Det är helt ok att ni jobbar i par.
 
 ## Vad är målet med laborationen?
 
-Vi ska använda oss av hela batteriet för att refaktorera koden till lättförståelig och förvaltningsbar kod enligt
-SOLID, DRY och KISS. Övriga knep för att förtydliga är också önskvärt.
+Vi ska använda oss av hela batteriet för att refaktorera koden till lättförståelig och förvaltningsbar kod enligt SOLID,
+DRY och KISS. Övriga knep för att förtydliga är också önskvärt.
 
 ## Vad är kraven för laborationen?
 
@@ -17,16 +17,19 @@ SOLID, DRY och KISS. Övriga knep för att förtydliga är också önskvärt.
 
 ## Redovisning
 
-Skriv ihop en README.md eller README.txt och förklara kortfattat hur och varför ni har gjort eller inte gjort vad. 
-Lägg även till namnen på de som gjorde i labben i denna fil.
+Skriv ihop en README.md eller README.txt och förklara kortfattat hur och varför ni har gjort eller inte gjort vad. Lägg
+även till namnen på de som gjorde i labben i denna fil.
 
 Redovisning senast 2021-12-10
 
 ### Klassrummet
+
 Vid tillfälle på plats. Föredras.
 
 ### Teams
+
 Skriv till Dan så kan vi komma överrens om en tid.
 
 ### GitHub
+
 Skicka github-länken till Dan
