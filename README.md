@@ -1,35 +1,15 @@
 ﻿# Labb 2
 
-I denna laboration skall vi pröva att refaktorera lite kod efter de regler vi lärt oss hittils.
+Vi har använt oss av single responsibility principle i klassen orderService för att plocka 
+det som inte hade med orders att göra. 
 
-Det är helt ok att ni jobbar i par.
+Vi har även tillämpat DRY principle genom att refactorera bort duplicat kod
 
-## Vad är målet med laborationen?
+VI har tillämpat Interface Segregation Principle genom att bryta ut interfaces så att de klasser som ärver
+av dem använder alla metoder de ärver. 
 
-Vi ska använda oss av hela batteriet för att refaktorera koden till lättförståelig och förvaltningsbar kod enligt SOLID,
-DRY och KISS. Övriga knep för att förtydliga är också önskvärt.
+Eftersom vi injectar alla våra services därmed kan vi byta ut dem mot andra services när det behövs
+och därmed använder vi oss av dependency inversion
 
-## Vad är kraven för laborationen?
-
-1. Koden ska vara lättförståelig, eller så lättförståelig som möjligt.
-2. Ni ska använda minst två av de fem principerna i SOLID.
-3. DRY ska användas där det passar.
-
-## Redovisning
-
-Skriv ihop en README.md eller README.txt och förklara kortfattat hur och varför ni har gjort eller inte gjort vad. Lägg
-även till namnen på de som gjorde i labben i denna fil.
-
-Redovisning senast 2021-12-10
-
-### Klassrummet
-
-Vid tillfälle på plats. Föredras.
-
-### Teams
-
-Skriv till Dan så kan vi komma överrens om en tid.
-
-### GitHub
-
-Skicka github-länken till Dan
+de som jobbat på projektet är
+Tommy Le och Gabriel Enström
